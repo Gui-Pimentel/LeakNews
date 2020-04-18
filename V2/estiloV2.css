@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(233, 227, 227);
+}
+#corpo{
+    background-color: white;
+}
+#logo{
+    text-decoration: blink;
+    animation-name: pisca;
+    animation-duration: 2s;
+    background-color: rgb(255, 255, 255);
+    padding-left: 45%;
+    border:1px black;
+    border-radius: 10px;
+}
+
+@keyframes pisca{
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+}
+@keyframes acendeeapaga{
+    from {color: black;}
+    to {color: red;}
+
+}
+#titulo{
+    animation-name: acendeeapaga;
+    animation-duration: 3s;
+    background-color: rgb(209, 159, 159);
+    padding-left: 36%;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 5px;
+}
+#subtitulo{
+    font-family: 'Times New Roman';
+    padding-left: 20%;
+}
+a{
+    color: blue;
+    text-decoration: unset;
+    font-family: 'Lucida Sans';
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+#noticias1{
+    background-color:rgb(191, 255, 218);
+    display: flex;
+    justify-content: space-between;
+    
+}
+#noticias2{
+    background-color:rgb(191, 255, 218);
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: rgb(197, 197, 247);
+    width: 40px;
+    height: 40px;
+    border: rgb(104, 7, 7);
+    color: rgb(211, 9, 9);
+    font-size: 10px;
+    border-radius: 20px;
+}
+#############################################################################################################################################
+Sobre 
+
+#titulo2{
+    padding-right: 30%;
+}
+#fim{
+    justify-content: space-between;
+    background-color: white;
+}
+#texto{
+    display: flex;
+    justify-content: space-between;
+}
+#mensagem{
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
