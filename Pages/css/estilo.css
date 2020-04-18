@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(214, 214, 214, 0.836);
+}
+
+#conjunto{
+    background-color: rgb(50, 157, 200);
+}  
+
+#navbar{
+    background-color: rgb(201, 130, 130);
+    font-family: sans-serif;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 3px 5px;
+    
+    
+}
+h1{
+    padding-left: 390px;
+}
+a{
+    color: blue;
+    text-decoration: unset;
+    display: flex;
+    font-family: 'Lucida Sans';
+    justify-content: space-between;
+}
